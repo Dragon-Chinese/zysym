@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	font-size: ;
 }
 body,html{
 	height: 100%;
@@ -24,4 +25,12 @@ main {
 footer {
 	height: 50px;
 	background: lightgreen;
+	line-height: 50px;
+}
+footer ul {
+	display: flex;
+}
+footer ul li {
+	text-align: center;
+	flex: 1;
 }
