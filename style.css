@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
     list-style: none;
+=======
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: ;
+>>>>>>> ad853ff8c33aef0eded91fbcf68a342cb7600841
 }
 
 body,
@@ -26,6 +34,7 @@ main {
     flex: 1;
     height: 100%;
 }
+<<<<<<< HEAD
 
 .list {
     box-sizing: border-box;
@@ -39,6 +48,19 @@ main {
     height: 40px;
     line-height: 40px;
     border-bottom: 1px solid #ccc;
+=======
+footer {
+	height: 50px;
+	background: lightgreen;
+	line-height: 50px;
+}
+footer ul {
+	display: flex;
+}
+footer ul li {
+	text-align: center;
+	flex: 1;
+>>>>>>> ad853ff8c33aef0eded91fbcf68a342cb7600841
 }
 
 footer {
