@@ -19,7 +19,9 @@ html {
 
 header {
     height: 60px;
-    background: red;
+    border-bottom: 1px solid #dec;
+    line-height: 60px;
+    text-align: center;
 }
 
 main {
@@ -44,4 +46,14 @@ main {
 footer {
     height: 50px;
     background: lightgreen;
+    line-height: 50px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    text-align: center;
+    flex: 1;
 }
